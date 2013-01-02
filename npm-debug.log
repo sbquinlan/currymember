@@ -1,0 +1,122 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose publish [ '.' ]
+5 verbose read json /Users/squinlan/Documents/curry-js/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/squinlan/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/tmp.tgz
+14 verbose folder .
+15 info prepublish curry@0.9.0
+16 silly lockFile c43b6904-62073-0-7155891531147063-tmp-tgz /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/tmp.tgz
+17 verbose lock /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/tmp.tgz /Users/squinlan/.npm/c43b6904-62073-0-7155891531147063-tmp-tgz.lock
+18 silly lockFile c43b6904-62073-0-7155891531147063-tmp-tgz /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/tmp.tgz
+19 verbose tar unpack /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/tmp.tgz
+20 silly lockFile f9d168a7-62073-0-7155891531147063-package /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/package
+21 verbose lock /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/package /Users/squinlan/.npm/f9d168a7-62073-0-7155891531147063-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry .npmignore
+25 silly gunzTarPerm extractEntry curry.js
+26 silly gunzTarPerm extractEntry Readme.md
+27 silly gunzTarPerm extractEntry test/test.js
+28 verbose read json /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/package/package.json
+29 silly lockFile f9d168a7-62073-0-7155891531147063-package /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/package
+30 verbose from cache /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/package/package.json
+31 verbose tar pack [ '/Users/squinlan/.npm/curry/0.9.0/package.tgz',
+31 verbose tar pack   '/var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/package' ]
+32 verbose tarball /Users/squinlan/.npm/curry/0.9.0/package.tgz
+33 verbose folder /var/folders/63/kt6kfy9d2p5808hkp67d8srm0000gn/T/npm-6787/1357112862073-0.7155891531147063/package
+34 silly lockFile a307a25c-nlan-npm-curry-0-9-0-package-tgz /Users/squinlan/.npm/curry/0.9.0/package.tgz
+35 verbose lock /Users/squinlan/.npm/curry/0.9.0/package.tgz /Users/squinlan/.npm/a307a25c-nlan-npm-curry-0-9-0-package-tgz.lock
+36 silly lockFile a307a25c-nlan-npm-curry-0-9-0-package-tgz /Users/squinlan/.npm/curry/0.9.0/package.tgz
+37 silly lockFile 8d8c62ea-squinlan-npm-curry-0-9-0-package /Users/squinlan/.npm/curry/0.9.0/package
+38 verbose lock /Users/squinlan/.npm/curry/0.9.0/package /Users/squinlan/.npm/8d8c62ea-squinlan-npm-curry-0-9-0-package.lock
+39 silly lockFile 8d8c62ea-squinlan-npm-curry-0-9-0-package /Users/squinlan/.npm/curry/0.9.0/package
+40 verbose tar unpack /Users/squinlan/.npm/curry/0.9.0/package.tgz
+41 silly lockFile 8d8c62ea-squinlan-npm-curry-0-9-0-package /Users/squinlan/.npm/curry/0.9.0/package
+42 verbose lock /Users/squinlan/.npm/curry/0.9.0/package /Users/squinlan/.npm/8d8c62ea-squinlan-npm-curry-0-9-0-package.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm extractEntry .npmignore
+46 silly gunzTarPerm extractEntry curry.js
+47 silly gunzTarPerm extractEntry Readme.md
+48 silly gunzTarPerm extractEntry test/test.js
+49 verbose read json /Users/squinlan/.npm/curry/0.9.0/package/package.json
+50 silly lockFile 8d8c62ea-squinlan-npm-curry-0-9-0-package /Users/squinlan/.npm/curry/0.9.0/package
+51 silly shasum updated bytes 964
+52 info shasum 92a01da10f3cdcc2485c8fac575b494eb5adc357
+52 info shasum /Users/squinlan/.npm/curry/0.9.0/package.tgz
+53 verbose from cache /Users/squinlan/.npm/curry/0.9.0/package/package.json
+54 verbose chmod /Users/squinlan/.npm/curry/0.9.0/package.tgz 644
+55 verbose chown /Users/squinlan/.npm/curry/0.9.0/package.tgz [ 501, 20 ]
+56 silly lockFile 3a52ce78- .
+57 silly publish { name: 'curry',
+57 silly publish   version: '0.9.0',
+57 silly publish   description: 'Curries functions.',
+57 silly publish   keywords: [ 'curry', 'Function' ],
+57 silly publish   author: { name: 'Sean Quinlan', email: 'squinlanesq@gmail.com' },
+57 silly publish   repository: { type: 'git', url: 'git://github.com/sbquinlan/curry.git' },
+57 silly publish   main: './curry.js',
+57 silly publish   engines: { node: '>= 0.4.0' },
+57 silly publish   scripts: { test: 'mocha' },
+57 silly publish   devDependencies: { should: '*', mocha: '*' },
+57 silly publish   readme: '#Curry\nAdds a member function to Functions allowing currying in Javascript. Useful for passing state to event handlers.\n\n## Implementation\n```javascript\nFunction.prototype.curry = function() {\n  var args = Array.prototype.slice.call(arguments), self = this;\n  return function() {\n    return self.apply(\n      self, \n      args.concat(Array.prototype.slice.call(arguments))\n    );\n  }\n}\n```\n\n## Example:\n```javascript\nvar add = function (a, b) { \n  return a+b; \n};\nvar add_one = add.curry(1);\nadd_one(1).should.equal(2);\nadd_one(2).should.equal(3);\n```',
+57 silly publish   readmeFilename: 'Readme.md',
+57 silly publish   _id: 'curry@0.9.0',
+57 silly publish   dist: { shasum: '92a01da10f3cdcc2485c8fac575b494eb5adc357' } }
+58 verbose url raw curry
+59 verbose url resolving [ 'https://registry.npmjs.org/', './curry' ]
+60 verbose url resolved https://registry.npmjs.org/curry
+61 info trying registry request attempt 1 at 23:47:43
+62 http PUT https://registry.npmjs.org/curry
+63 http 409 https://registry.npmjs.org/curry
+64 verbose url raw curry
+65 verbose url resolving [ 'https://registry.npmjs.org/', './curry' ]
+66 verbose url resolved https://registry.npmjs.org/curry
+67 info trying registry request attempt 1 at 23:47:43
+68 http GET https://registry.npmjs.org/curry
+69 http 200 https://registry.npmjs.org/curry
+70 verbose url raw curry/0.9.0/-tag/latest
+71 verbose url resolving [ 'https://registry.npmjs.org/', './curry/0.9.0/-tag/latest' ]
+72 verbose url resolved https://registry.npmjs.org/curry/0.9.0/-tag/latest
+73 info trying registry request attempt 1 at 23:47:43
+74 http PUT https://registry.npmjs.org/curry/0.9.0/-tag/latest
+75 http 403 https://registry.npmjs.org/curry/0.9.0/-tag/latest
+76 error publish Error sending version data
+77 error Error: forbidden user: sbquinlan not authorized to modify curry
+77 error Changed: description "flexible but simple curry function" -> "Curries functions."
+77 error Changed: dist-tags.latest "0.0.4" -> "0.9.0"
+77 error Added: versions.0.9.0
+77 error Changed: time.modified "2011-09-14T14:52:44.612Z" -> "2013-01-02T07:46:30.767Z"
+77 error Added: time.0.9.0
+77 error Changed: author.name "Dominic Tarr" -> "Sean Quinlan"
+77 error Changed: author.email "dominic.tarr@gmail.com" -> "squinlanesq@gmail.com"
+77 error Changed: repository.url "git://github.com/dominictarr/curry.git" -> "git://github.com/sbquinlan/curry.git": curry/0.9.0/-tag/latest
+77 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:259:14)
+77 error     at Request.init.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:120:22)
+77 error     at Request.EventEmitter.emit (events.js:99:17)
+77 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:648:16)
+77 error     at Request.EventEmitter.emit (events.js:126:20)
+77 error     at IncomingMessage.Request.start.self.req.self.httpModule.request.buffer (/usr/local/lib/node_modules/npm/node_modules/request/main.js:610:14)
+77 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+77 error     at IncomingMessage._emitEnd (http.js:366:10)
+77 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+77 error     at CleartextStream.socketOnData [as ondata] (http.js:1367:20)
+78 error If you need help, you may report this log at:
+78 error     <http://github.com/isaacs/npm/issues>
+78 error or email it to:
+78 error     <npm-@googlegroups.com>
+79 error System Darwin 12.2.0
+80 error command "node" "/usr/local/bin/npm" "publish"
+81 error cwd /Users/squinlan/Documents/curry-js
+82 error node -v v0.8.16
+83 error npm -v 1.1.69
+84 verbose exit [ 1, true ]

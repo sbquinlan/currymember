@@ -11,10 +11,12 @@ describe('curry', function () {
   });
   
   it('curries functions', function() {
-    var add = function (a, b) { return a+b; };
+    var add = function (a, b) { 
+      return a+b; 
+    };
     var add_one = add.curry(1);
     add_one(1).should.equal(2);
-    add_one(2).should.equal(3);a
+    add_one(2).should.equal(3);
   });
   
   it('takes variable arguments', function() {

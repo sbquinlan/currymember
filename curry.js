@@ -1,8 +1,9 @@
 Function.prototype.curry = function() {
-  var slice = Array.prototype.slice,
-      args = slice.call(arguments);
+  var args = Array.prototype.slice.call(arguments), self = this;
   return function() {
-    args.concat(slice.call(arguments));
-    return this.apply(this, args);
+    return self.apply(
+      self, 
+      args.concat(Array.prototype.slice.call(arguments))
+    );
   }
 }
