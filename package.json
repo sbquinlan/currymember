@@ -1,0 +1,15 @@
+{
+    "name"        : "curry"
+  , "version"     : "0.9.0"
+  , "description" : "Curries functions."
+  , "keywords"    : ["curry", "Function"]
+  , "author"      : "Sean Quinlan <squinlanesq@gmail.com>"
+  , "repository"  : { "type": "git", "url": "git://github.com/sbquinlan/curry.git" }
+  , "main"        : "./curry.js"
+  , "engines"     : { "node": ">= 0.4.0" }
+  , "scripts"     : { "test": "mocha" }
+  , "devDependencies" : {
+      "should" : "*"
+    , "mocha"  : "*"
+  }
+}
